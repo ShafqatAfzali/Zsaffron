@@ -1,0 +1,53 @@
+.confirmed_page{
+    --color1: rgb(218, 218, 218);
+    --color2: rgb(120, 120, 120);
+    --color3: #a1761f;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--color1);
+}
+
+.confirmation_header{
+    position: absolute;
+    display: block;
+    top: 35%;
+    left: 35%;
+    color: var(--color3);
+    font-size: 1.4em;
+    font-weight: 550;    
+}
+.confirmation_email{
+    position: absolute;
+    display: block;
+    top: 40%;
+    left: 23%;
+    color: var(--color3);
+    font-size: 1.4em;
+    font-weight: 550;    
+}
+
+
+@media screen and (max-width: 376px) {
+  
+}
+
+@media screen and (max-width: 391px) {
+  
+  
+}
+
+
+@media screen and (max-width: 411px) {
+  
+  
+}
+
+@media screen and (max-width: 769px) {
+  
+}
+
+@media screen and (max-width: 821px) {
+  
+  
+}
