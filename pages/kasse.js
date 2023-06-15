@@ -464,7 +464,7 @@ export async function getStaticProps() {
     
     connection.end()
   
-    const resp_to = await fetch(`${HOST}/api/send`,{
+    const resp_to = await fetch(`https://Zsaffron.onrender.com/api/send`,{
       method: "GET",
       headers: {
         "Accept": "application/json"
